@@ -238,4 +238,10 @@ int main()
                 break;
             }
         }
-       
+        catch (exception& e)
+        {
+            cout << "Check for the values enterted." << endl;
+        }
+    }
+}
+
