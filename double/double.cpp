@@ -2,8 +2,15 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main()
+struct Node
 {
-    std::cout << "Hello World!\n";
-}
+    int noMhs;
+    string name;
+    Node* next;
+    Node* prev;
+};
+
+Node* START = NULL;
+
