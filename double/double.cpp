@@ -230,4 +230,12 @@ int main()
             case '5':
                 searchData();
                 break;
-           
+            case '6':
+                return 0;
+                break;
+            default:
+                cout << "\nInvalid option" << endl;
+                break;
+            }
+        }
+       
