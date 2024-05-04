@@ -135,3 +135,8 @@ void deleteNode()
 
 }
 
+bool listEmty()
+{
+    return (START == NULL);
+}
+
